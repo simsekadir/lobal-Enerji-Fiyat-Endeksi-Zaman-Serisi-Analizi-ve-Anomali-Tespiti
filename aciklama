@@ -1,0 +1,31 @@
+Zaman serisinin trend, sezonlukluk ve anomali (uç değer) yapıları analiz edilmiştir.
+
+ACF/PACF, KPSS ve ADF testleri ile durağanlık incelenmiş, gerekli dönüşümler uygulanmıştır.
+
+Anomali tespiti için STL decomposition ve anomalize gibi gelişmiş R paketleri kullanılmıştır.
+
+Temizlenmiş verilerle, ARIMA ve SARIMA gibi modellerin ön değerlendirmesi yapılmış, model önerisi ve sezonluk kök varlığı araştırılmıştır.
+
+Model seçiminde AIC/BIC kriterleri ve parametrelerin anlamlılığı dikkate alınmıştır.
+
+Kullanılan Yöntem ve Teknolojiler
+R: forecast, tseries, anomalize, ggplot2, uroot, TSA, pdR
+
+Zaman serisi görselleştirme ve decomposition
+
+Anomali tespiti ve temizliği
+
+Durağanlık ve sezonluk analizler
+
+ARIMA/SARIMA model önerisi
+
+Proje Adımları
+Veri Temizliği & Görselleştirme: Aylık fiyat serisinin trend/sezonluk yapısının grafiklerle sunulması
+
+Anomali Tespiti: STL decomposition ve GESD testi ile uç değerlerin bulunması ve temizlenmesi
+
+Durağanlık Testleri: KPSS ve ADF ile serinin uygunluğunun kontrolü, gerekli fark alma işlemleri
+
+Modelleme: ARIMA ve SARIMA model önerisi, sezonluk kök araştırması (HEGY, OCSB vs.)
+
+Sonuçlar: Enerji fiyatlarındaki şoklar ve dönemsel dalgalanmaların nedenlerine ilişkin bulgular
